@@ -38,6 +38,7 @@ aside{
 @media screen and (max-width: 420px;){
   .tengah .card aside{
     width: 100%;
+    height: auto;
   }
 }
 
