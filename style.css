@@ -11,15 +11,33 @@ footer{
   
 }
 
+main{
+  overflow: auto;
+  padding: 15px;
+}
+
 
 /*grouping selector*/
 h1{
   color: #ff4081;
+}
+aside{
+  text-align: center;
 }
 
 
 /*class selector*/
 .tengah{
   text-align: center;
+}
+.card{
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 4px;
+}
+@media screen and (max-width: 922px;){
+  .tengah .card aside{
+    width: 100%;
+  }
 }
 
