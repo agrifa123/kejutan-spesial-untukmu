@@ -35,7 +35,7 @@ aside{
   padding: 15px;
   box-shadow: 4px;
 }
-@media screen and (max-width: 360px;){
+@media screen and (max-width: 270px;){
   .tengah .card aside main body{
     width: 100%;
     height: auto;
