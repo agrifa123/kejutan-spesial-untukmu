@@ -3,11 +3,20 @@ body {
   margin: 0;
   padding: 0;
 }
+footer{
+  text-align: center;
+  
+}
+
+
 /*grouping selector*/
 h1{
   color: #ff4081;
 }
+
+
 /*class selector*/
 .tengah{
   text-align: center;
 }
+
