@@ -2,4 +2,12 @@
 body {
   margin: 0;
   padding: 0;
-  }
+}
+/*grouping selector*/
+h1{
+  color: #ff4081;
+}
+/*class selector*/
+.tengah{
+  text-align: center;
+}
