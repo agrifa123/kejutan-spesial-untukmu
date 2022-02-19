@@ -1,0 +1,54 @@
+/*elemn selector*/
+body {
+  margin: 0;
+  padding: 0;
+}
+footer{
+  text-align: center;
+  background-color: #b71c1c;
+  padding: 20px;
+  color: #ffffff;
+  
+}
+
+main{
+  overflow: auto;
+  padding: 15px;
+}
+
+
+/*grouping selector*/
+h1{
+  color: #ff4081;
+  
+}
+aside{
+  text-align: center;
+}
+
+
+/*class selector*/
+.tengah{
+  text-align: center;
+}
+.card{
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 4px;
+}
+.button{
+  position: fixed;
+}
+
+@media screen and (-webkit-device-pixel-ratio: 1.5;){
+  body{
+    border: 1px;
+    background-color: #ffffff;
+  }
+}
+@media screen and (-webkit-device-pixel-ratio: 0.75;){
+  body{
+    border: 1px;
+    background-color: #ffffff;
+  }
+}
