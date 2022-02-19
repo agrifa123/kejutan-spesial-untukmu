@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LoveYou</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <div class="tengah">                    <header class="card">
+        <h1>Hai Cantik</h1>
+      </header>
+      
+      <main>
+        <aside class="card">
+          <img src="https://c.tenor.com/Z8ezUHZzcLoAAAAC/love.gif" />
+        <aside>
+        <section class="card">
+          <h1>Maukah Engkau Menjadi Pacarku?</h1>
+        </section>
+        <section>
+          <button id="btn_mau"onclick="alert('I LOVE YOU😍😍')">Mau</button>
+          <button id="btn_gamau" onclick="gamau(this)" class="button"> Gamau</button>
+        </section>                    
+      </main>
+    </div>
+    
+    <footer>
+      ©2022 Agrifa Aditya Rumahorbo
+    </footer>
+  </body>
+  
+  <script>
+    function gamau(id){
+     var mau = document.getElementById("btn_mau");
+     var i = Math.floor(Math.random() * 300) + 1;
+     var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+     id.style.left = i + "px";
+     id.style.top = j + "px"
+    }
+  </script>
+</html>
