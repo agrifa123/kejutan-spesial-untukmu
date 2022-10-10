@@ -41,6 +41,11 @@ aside{
   text-align: center;
 }
 
+.container {
+   width: 100%;
+   min-height: 200px;
+}
+
 @media screen and (-webkit-device-pixel-ratio: 1.5;){
   body{
     border: 1px;
